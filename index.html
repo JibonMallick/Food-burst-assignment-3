@@ -284,9 +284,9 @@
                     </div>
                 </div>
             </div>
-            <div class="space-y-3 md:grid grid-cols-2 items-center justify-evenly gap-5 m-10 lg:flex">
+            <div class="space-y-3 md:grid grid-cols-2 justify-evenly gap-5 m-10 lg:flex">
 
-                <div class="card bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl flex-1">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -301,12 +301,37 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-actions">
-                            <h1 class="text-red-500">Details</h1>
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button class="btn text-red-600" onclick="my_modal_1.showModal()">Details</button>
+                            <dialog id="my_modal_1" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div class="flex items-center justify-center">
+                                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                                    </div>
+                                    <h3 class="font-bold text-sm">Apples</h3>
+                                    <p class="py-1 text-sm">Professional employees to help you providing the best choice
+                                    </p>
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                            checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+                                    <div class="modal-action flex items-center justify-around">
+                                        <button class="btn btn-error rounded-md bg-[#F85559] text-white border-none">Buy
+                                            Now</button>
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn">Close</button>
+                                    </div>
+                                </form>
+                            </dialog>
                         </div>
                     </div>
                 </div>
 
-                <div class="card bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl flex-1">
                     <figure class="px-10 pt-10 ">
                         <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -321,11 +346,36 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-actions">
-                            <h1 class="text-red-500">Details</h1>
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button class="btn text-red-600" onclick="my_modal_3.showModal()">Details</button>
+                            <dialog id="my_modal_3" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div class="flex items-center justify-center">
+                                        <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                                    </div>
+                                    <h3 class="font-bold text-sm">Oranges</h3>
+                                    <p class="py-1">Professional employees to help you providing the best choice</p>
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                            checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+                                    <div class="modal-action flex items-center justify-around">
+                                        <button
+                                            class="btn btn-error rounded-md bg-[#F85559] text-white border-none p-2">Buy
+                                            Now</button>
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn">Close</button>
+                                    </div>
+                                </form>
+                            </dialog>
                         </div>
                     </div>
                 </div>
-                <div class="card bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl flex-1">
                     <figure class="px-10 pt-10 ">
                         <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -340,11 +390,36 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-actions">
-                            <h1 class="text-red-500">Details</h1>
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button class="btn text-red-600" onclick="my_modal_2.showModal()">Details</button>
+                            <dialog id="my_modal_2" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div class="flex items-center justify-center">
+                                        <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                                    </div>
+                                    <h3 class="font-bold text-lg">Strawberry</h3>
+                                    <p class="py-4">Professional employees to help you providing the best choice</p>
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                            checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+                                    <div class="modal-action flex items-center justify-around">
+                                        <button
+                                            class="btn btn-error rounded-md bg-[#F85559] text-white border-none p-2">Buy
+                                            Now</button>
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn">Close</button>
+                                    </div>
+                                </form>
+                            </dialog>
                         </div>
                     </div>
                 </div>
-                <div class="card bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl flex-1">
                     <figure class="px-10 pt-10 ">
                         <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -359,7 +434,32 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-actions">
-                            <h1 class="text-red-500">Details</h1>
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button class="btn text-red-600" onclick="my_modal_4.showModal()">Details</button>
+                            <dialog id="my_modal_4" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div class="flex items-center justify-center">
+                                        <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                                    </div>
+                                    <h3 class="font-bold text-lg">Banana</h3>
+                                    <p class="py-4">Professional employees to help you providing the best choice</p>
+                                    <div class="rating">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                            checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+                                    <div class="modal-action flex items-center justify-around">
+                                        <button
+                                            class="btn btn-error rounded-md bg-[#F85559] text-white border-none p-2">Buy
+                                            Now</button>
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn">Close</button>
+                                    </div>
+                                </form>
+                            </dialog>
                         </div>
                     </div>
                 </div>
@@ -377,7 +477,7 @@
 
 
         <!-- meet the team section-------------- -->
-        <div class=" mx-10 my-20 max-w-screen-2xl lg:m-20 bg-cover bg-center bg-no-repeat lg:h-screen "
+        <div class=" mx-10 my-20 max-w-screen-2xl lg:m-20 bg-cover bg-center bg-no-repeat lg:h-[600px] "
             style="background-image: url('./images/team.png');">
 
 
